@@ -40,6 +40,8 @@ flex-direction: row-reverse;
   animation-name: examples;
     animation-duration: 10s;
     font-weight: 100;
+    color: white;
+    text-align: center;
     text-transform: inherit;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
