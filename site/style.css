@@ -182,3 +182,8 @@ h2{
 
 
 }
+
+@media screen and (max-width: 64em) and (min-width: 42em)
+ {
+    padding: 3rem 4rem;
+}

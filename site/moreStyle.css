@@ -40,7 +40,7 @@ body {
 	border-top: 1px solid #e1e8ee;
 	border-bottom: 1PX solid #e1e8ee;
 }
-.buttons{
+.buttons{animation: `
 	position: relative;
 	padding-top: 30px;
 	margin-right: 60px
