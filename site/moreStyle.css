@@ -52,7 +52,8 @@ body {
     height: 17px;
     cursor: pointer;
     display: inline-block;
-    margin-left: 20px;
+
+    margin-right: 20px;
 	background: url("delete-icn.svg") no-repeat center;
 
 }
