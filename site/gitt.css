@@ -1,0 +1,12 @@
+.row{
+	margin-bottom: 15px;
+}
+.row > div{
+	border: 2px solid blue;
+}
+.ph{
+	float: right;
+	width: 200px;
+	height: 20px;
+	background-color: red;
+}
