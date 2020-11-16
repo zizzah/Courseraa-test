@@ -1,0 +1,36 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+.dive{
+
+	
+	padding: 2px;
+	border: 1px solid #cabbea;
+	background-color: #ffffff;
+	width: 400px;
+	height: 100px;
+	margin-right:5px;
+	margin-left: 20px;
+	position: relative;
+
+   
+}
+
+.grid-container{
+background-color:  #f1f1f1;;
+  padding: 1px;
+  display: flex;
+  flex-flow: row wrap;
+ 
+
+}
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
