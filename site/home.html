@@ -12,16 +12,9 @@
 			padding: 0px;
 		}
 		
-		p{
-			border: 1px solid green;
-			width: 50px;
-			height: 50px;
-		}
+		
 
-		div{
-			background-color: #00ffff;
-			position: relative;
-		}
+	
 
 
 		#p1{
@@ -46,7 +39,64 @@
 			background-color: #50aade;
 
 		}
+		.big-container{
+			display: flex;
+			width: 100%;
+			background-color: whitesmoke;
+		}
 
+		.container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  position: relative;
+  background-color: aquamarine;
+}
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  /* Center vertically */
+  position: absolute;
+  top: 50%;
+}
+
+.containerr {
+  
+  position: relative;
+  margin: auto;
+  width: 400px;
+  background-color: rgb(0, 255, 234);
+  height: 200px;
+}
+
+.childs {
+ 
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.childw {
+  
+  background-color: red;
+  /* Center vertically and horizontally */
+  position: absolute;
+  border: 1px solid snow;
+  top: 0%;
+  right:  0%;
+ /* apply negative top and left margins to truly center the element */
+}
+
+.childy {
+   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: cornsilk;
+  transform: translate(-50%, -50%);
+}
 	</style>
 </head>
 <body>
@@ -55,11 +105,30 @@
 <h1> just messing around</h1>
 
 
-<div>
-	<p id="p1"></p>
-	<p id="p2"></p>
-	<p id="p3"></p>
-	<p id="p4"></p>
+<div class="big-container">
 
-</div>
+	<div class="containerr">
+		<div class="childs">
+			<p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+		</div>
+		<p class="childw">CHICKEN</p>
+		
+	  </div>
+
+<div class="containerr">
+	<div class="childs">
+		<p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+	</div>
+	<p class="childw">BEEF</p>
+  </div>
+
+  <div class="containerr">
+	<div class="childs">
+		<p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+	</div>
+	<p class="childw">SUNSI</p>
+	
+  </div>
+
+  </div>
 </html>

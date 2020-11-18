@@ -7,59 +7,51 @@
 }
 
 
-.dive{
+#dive{
 
 	
-	padding: 2px;
+	
 	border: 1px solid #cabbea;
-	background-color: gray;
-	width: 420px;
+	
+	width: 400px;
 	height: 100px;
-	margin-right:5px;
-	margin-left: 20px;
+	 margin: 0 auto;
 	position: relative;
-
-   
+	align-content: center;
+	align-self: center;
 }
 
-.grid-container{
-background-color:  #f1f1f1;;
-  padding: 1px;
+header{
+ overflow: hidden;
+  background-color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  flex-flow: row wrap;
-
+  flex-flow: row;
+justify-content: center;
+position: relative;
+top: 50px;
 
 }
 h1{
 	text-align: center;
+
 	margin-bottom: 15px;
 }
 
-@media screen and (max-width: 64em) and (min-width: 42em) {
-    padding: 3rem 4rem;
-}
+
 #p1{
-	background-color:pink;
+	background-color: #ae3412;
 	position: relative;
 	top: 0px;
-	width: 70px;
-	left: 345px;
-	font-weight: 200;
-	font-size: 20px;
-	border: 2px solid black;
-	margin-bottom: 5px;
+	width: 55px;
+	left: 340px;
+	margin-bottom: 10px;
+	border: 1px solid black
 }
 
-#p2{
-	background-color:#eeaa12;
-	position: relative;
-	top: 0px;
-	width: 70px;
-	left: 345px;
-	font-weight: 200;
-	font-size: 20px;
-	text-align:center;
-	border: 2px solid black;
-	margin-bottom: 5px;
+.container {
+  ...
+  display: flex;
+  align-items: center;
+  background-color: green;
 }
-
