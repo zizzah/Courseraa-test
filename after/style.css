@@ -2,7 +2,8 @@
 
 *{
     box-sizing: border-box;
-   
+    margin: 0;
+    padding: 0;
 }
 body{
 
@@ -11,21 +12,22 @@ body{
     background-color: #61122f;
     font-family: 'Oxygen', sans-serif;
 }
-#header-nav{
+.navbar-inverse{
     border-radius: 0;
     border: 0;
+    height: 150px;
     background-color: #f6b319;
 }
 #logo-image{
     background-image: url("../after/images/elzizzah.png");
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 0;
+    margin: 0px 15px 10px 0;
     
 }
 
-.navbar-header{
- 
+#bb{
+ display: flex;
     
 }
 .navbar-brand{
@@ -34,10 +36,10 @@ body{
 .ks{
     height: 50px;
 }
-.navbar-brand{
+.navbar-nav{
     font-family: 'Lora', serif;
     color: #557c3e;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 3px 3px 3px #222;
@@ -59,4 +61,7 @@ body{
 }
 h1{
     color: #557c55;
+}
+.dropdown-toggle{
+    color: #557c3e;
 }
