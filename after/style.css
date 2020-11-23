@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 body{
 
@@ -61,7 +62,31 @@ body{
 }
 h1{
     color: #557c55;
+    text-align: center;
 }
 .dropdown-toggle{
     color: #557c3e;
 }
+a{
+    color: rgba(0, 0, 255, 0.582);
+}
+.row{
+    margin-top: 100px;
+}
+.float-left{
+    margin-top: 0PX;
+}
+
+   
+  
+    @media only screen and (min-width: 500px) {
+        .container { 
+        background-image: url("../after/images/kosher.jpg");
+        }
+      }
+
+      .container { 
+        background-image: url('../after/images/jean.jpg'); 
+        background-repeat: no-repeat;
+ 
+     }
